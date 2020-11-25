@@ -1,0 +1,44 @@
+
+
+@media screen and (max-width: 479px) {
+  .wrapper{
+    width: 200px;
+  }
+  .header{
+    height: 170px;
+    padding-top: 10px;
+    padding-right: 0;
+  }
+  .header-box{
+    width: 60px;
+    height: 160px;
+    float: none;
+  }
+  .box{
+
+  }
+  .contents{
+    height: 300px;
+  }
+  .left{
+    width: 200px;
+    height: 100px;
+    float: none;
+  }
+  .right{
+    width: 200px;
+    height: 200px;
+    float: none;
+    padding-top: 20px;
+  }
+  .box-right{
+    margin: 0;
+    margin-left: 30px;
+  }
+  .box2-3{
+    margin-top: 10px;
+  }
+  .footer{
+    top:100px;
+  }
+}

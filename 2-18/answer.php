@@ -4,9 +4,9 @@
     $question = [$_POST['q1'],$_POST['q2'],$_POST['q3']];
     $answer = [1,3,1];
     if ($question[$x]==$answer[$x]) {
-      echo "正解!!<br>";
+      echo "<p>正解!!</p>";
     }else {
-      echo "残念...<br>";
+      echo "<p>残念...</p>";
     }
   }
  ?>
@@ -15,6 +15,7 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
     <title></title>
   </head>
   <body>

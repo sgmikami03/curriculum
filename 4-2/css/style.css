@@ -1,0 +1,81 @@
+*{
+  margin:0;
+  padding: 0;
+}
+.wrapper{
+  margin: 0 auto;
+  width: 400px;
+}
+h2{
+  display: inline;
+  float: left;
+  line-height: normal;
+}
+.text{
+  width: 300px;
+  height: 25px;
+  margin: 5px 0;
+}
+.submit{
+  width: 125px;
+  height: 35px;
+  margin: 5px 0;
+}
+.button p{
+  font-size: 10px;
+  color: #fff;
+  text-align: center;
+  line-height: 25px;
+}
+.button p a{
+  font-size: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+.button{
+  height: 25px;
+  width:100px;
+  background-color: #31abad;
+  float: left;
+  margin: 5px 10px;
+  border-radius: 2px;
+}
+.submit{
+  background-color: #4f90f7;
+  border: 0px;
+  border-radius: 3px;
+  color: #fff;
+}
+#add{
+  background-color: #4f90f7;
+  float: left;
+}
+#logout{
+  background-color: gray;
+  float: left;
+}
+.pp{
+  float: left;
+}
+
+/*table*/
+table{
+  border: 1px solid #adb3c1;
+  border-collapse: collapse;
+}
+th{
+  background-color: #d1dae6;
+}
+th, td {
+  padding: 5px 15px;
+  border: solid 1px #adb3c1;
+}
+.btn-delete{
+  background-color: red;
+  border-radius: 2px;
+  padding: 3px 5px;
+}
+.btn-delete a{
+  color: #fff;
+  text-decoration: none;
+}
